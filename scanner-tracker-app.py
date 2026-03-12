@@ -8,10 +8,10 @@ import streamlit as st
 # -----------------------------
 # Database connection
 # -----------------------------
-DB_HOST = st.secrets["db_host"]
-DB_NAME = st.secrets["db_name"]
-DB_USER = st.secrets["db_user"]
-DB_PASS = st.secrets["db_pass"]
+DB_HOST = st.secrets["db.ljuzgskiyasczegbudtn.supabase.co"]
+DB_NAME = st.secrets["postgres"]
+DB_USER = st.secrets["postgres"]
+DB_PASS = st.secrets["dfazfor-wAdrub-gecco1"]
 DB_PORT = st.secrets.get("db_port", 5432)
 
 @st.cache_resource
